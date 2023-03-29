@@ -1,11 +1,8 @@
 FROM centos
 
 MAINTAINER "luobook"
-PWD
-MKDIR /etc/lb
-COPY radish /etc/lb/radish
-COPY Config.json /etc/lb/Config.json
-WORKDIR /etc/lb
+
+WORKDIR /app
 
 EXPOSE 3001
 RUN chmod 777 radish
