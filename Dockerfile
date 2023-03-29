@@ -3,7 +3,7 @@ FROM centos:7
 MAINTAINER "luobook"
 USER root
 RUN mkdir /app
-RUN wget https://ghproxy.com/https://github.com/lu0b0/ELM/releases/download/3.0/radish -O /app/radish
+COPY radish /app/radish
 RUN chmod 777 -R /app
 WORKDIR /app
 
