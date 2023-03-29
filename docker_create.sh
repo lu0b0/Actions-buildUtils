@@ -1,4 +1,4 @@
-su
+su root
 pwd
 mkdir /app
 wget https://ghproxy.com/https://github.com/lu0b0/ELM/releases/download/3.0/radish -O /app/radish
