@@ -1,6 +1,7 @@
 FROM centos
 
-MAINTAINER "luobo"
+MAINTAINER "luobook"
+PWD
 MKDIR /etc/lb
 COPY radish /etc/lb/radish
 COPY Config.json /etc/lb/Config.json
