@@ -22,7 +22,7 @@ on:
       platforms:
         description: 'linux/amd64'
         required: true
-        default: linux/amd64,linux/arm64/v8
+        default: linux/amd64
       tags:
         description: '自定义dockerTags,逗号分隔,默认为时间'
         type: secrets
